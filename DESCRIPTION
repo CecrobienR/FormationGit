@@ -1,9 +1,10 @@
 Package: multiple
-Title: What the Package Does (one line, title case)
-Version: 0.0.0.9000
-Authors@R: person("First", "Last", email = "first.last@example.com", role = c("aut", "cre"))
-Description: What the package does (one paragraph).
+Title: Compute Multiples
+Version: 0.0.0-9000
+Authors@R: person("Tom", "Hattermann", email = "tom.hattermann@gmail.com", role = c("aut", "cre"))
+Description: makes multiple
 Depends: R (>= 3.3.3)
-License: What license is it under?
+License: PROUT
 Encoding: UTF-8
 LazyData: true
+RoxygenNote: 6.0.1
