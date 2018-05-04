@@ -8,5 +8,9 @@
 #' @examples
 #' Double(runif(4))
 Double <- function(number) {
-  return(2 * number)
+  #input check
+  if (!is.numeric(number))
+    stop("Double requires a numeric object")
+  return(2L * number)
 }
+
